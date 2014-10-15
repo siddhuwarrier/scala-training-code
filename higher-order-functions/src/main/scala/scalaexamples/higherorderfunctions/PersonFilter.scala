@@ -8,5 +8,6 @@ class PersonFilter {
   // returns a new list of the persons for which the function returns true
   
   // def filterPersons(persons: List[Person], ...): List[Person] = Nil
+  def filterPersons(persons: List[Person], func: Person => Boolean) = Nil
   
 }
